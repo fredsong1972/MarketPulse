@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>8f93f2da-ed91-4fa7-b55a-b424e6d55b01</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="13.9.12" />
+    <PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.9.12" />
+  </ItemGroup>
+
+</Project>
